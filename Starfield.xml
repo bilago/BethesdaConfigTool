@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Starfield>
+  <Setting>
+    <Name>InsertCommandName</Name>
+    <Section>Unkown</Section>
+    <Files>
+      <File>Starfield.ini</File>
+    </Files>
+    <DefaultValue>3</DefaultValue>
+  </Setting>
+    <Setting>
+    <Name>InsertCommandName2</Name>
+    <Section>Unkown</Section>
+    <Files>
+      <File>Starfield.ini</File>
+    </Files>
+    <DefaultValue>31</DefaultValue>
+  </Setting>
+    <Setting>
+    <Name>InsertCommandName3</Name>
+    <Section>Unkown</Section>
+    <Files>
+      <File>Starfield.ini</File>
+    </Files>
+    <DefaultValue>32</DefaultValue>
+  </Setting>
+</Starfield>
