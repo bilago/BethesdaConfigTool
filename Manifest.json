@@ -1,5 +1,7 @@
 {
-  "Descriptions":1,
-  "Starfield":1
+  "Descriptions": 1,
+  "GameDefinitions": {
+    "Fallout4": 1,
+    "Starfield": 1
+  }
 }
-
