@@ -656,4 +656,44 @@
     </Files>
     <DefaultValue>0.7</DefaultValue>
   </Setting>
+  <Setting>
+    <Name>bHasUserAccepted</Name>
+    <Section>Legal</Section>
+    <Files>
+      <File>StarfieldPrefs.ini</File>
+  </Files>
+    <DefaultValue>0</DefaultValue>
+  </Setting>
+  <Setting>
+    <Name>iSize H</Name>
+    <Section>Display</Section>
+    <Files>
+      <File>StarfieldPrefs.ini</File>
+    </Files>
+    <DefaultValue>1080</DefaultValue>
+  </Setting>
+  <Setting>
+    <Name>iSize W</Name>
+    <Section>Display</Section>
+    <Files>
+      <File>StarfieldPrefs.ini</File>
+    </Files>
+    <DefaultValue>1920</DefaultValue>
+  </Setting>
+  <Setting>
+    <Name>bBorderless</Name>
+      <Section>Display</Section>
+    <Files>
+      <File>StarfieldPrefs.ini</File>
+    </Files>
+    <DefaultValue>0</DefaultValue>
+  </Setting>
+  <Setting>
+    <Name>bFull Screen</Name>
+    <Section>Display</Section>
+    <Files>
+      <File>StarfieldPrefs.ini</File>
+    </Files>
+    <DefaultValue>0</DefaultValue>
+  </Setting>
 </Starfield>
