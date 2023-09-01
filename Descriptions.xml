@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Bethesda>
   <Descriptions>
     <Description Name="iNumThreads">Number of threads to use with the game. Edit at your own risk. No proof this actually does anything</Description>
@@ -894,5 +894,6 @@
     <Description Name="sBumpFadeColor">This is believed to be unused by the game. </Description>
     <Description Name="sEnvReduceColor">This is believed to be unused by the game. </Description>
     <Description Name="sLerpCloseColor">This is believed to be unused by the game. </Description>
+    <Description Name="bHasUserAccepted">This will either hide or show the EULA at the main menu. Set to 1 to accept</Description>
   </Descriptions>
 </Bethesda>
