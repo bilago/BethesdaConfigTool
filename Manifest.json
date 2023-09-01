@@ -1,8 +1,7 @@
 {
   "AppVersion":"1.0.0.39095",
-  "Descriptions": 1,
+  "Descriptions": 2,
   "GameDefinitions": {
-    "Fallout4": 1,
-    "Starfield": 1
+    "Starfield": 2
   }
 }
