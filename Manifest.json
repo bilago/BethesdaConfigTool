@@ -1,7 +1,7 @@
 {
   "AppVersion": "1.0.2.0",
-  "Descriptions": 2,
+  "Descriptions": 3,
   "GameDefinitions": {
-    "Starfield": 4
+    "Starfield": 5
   }
 }
