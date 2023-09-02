@@ -229,7 +229,7 @@
     <Description Name="uExterior Cell Buffer">Outside Cell buffer size. Game doesn't read any value lower than 47 for some reason. Increase this if yo u increase your uGridsToLoad.</Description>
     <Description Name="uMainMenuDelayBeforeAllowSkip">Delay at the main menu before input lets you skip the video. Set to 1 to make it instant. 0 does not work.</Description>
     <Description Name="iMinGrassSize">Lower Equals higher Grass Density. May decrease performance. Put higher to lower Grass Density</Description>
-    <Description Name="fBookOpenTime">How long it takes a book to open. Not sure if lower = Faster</Description>
+    <Description Name="fBookOpenTime">How long it takes to open a book in milliseconds. Lower numbers open books faster. The default value opens the book in 1 second</Description>
     <Description Name="fCrosshairAlphaPercent">The transparency of the Crosshair. 0% is completely transparent. 100% is completely opaque.</Description>
     <Description Name="fMaxSubtitleDistance">How far you can get from an NPC before the subtitles dissapear</Description>
     <Description Name="fSafeZoneX">Margin from the edge of the screen (x axis on 4:3) your UI is placed. Lower = Closer</Description>
