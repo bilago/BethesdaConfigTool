@@ -841,7 +841,8 @@
   "bHasUserAccepted": "This will either hide or show the EULA at the main menu. Set to 1 to accept",
   "bEnableMotionBlur": "This will enable or disable motion blur. 1 = on, 0 = off",
   "fCASSharpnessValue": "This Sets the sharpness leven of CAS. 0 = 0% 1 =  100%, anywhere in between is ok",
-  "fFPWorldFOV": "This changes the first person FOV (field of view)",
+  "fFPWorldFOV": "This changes the first person Field of View",
+  "fTPWorldFOV": "Third Person Field of View",
   "iBackgroundOpacity": "Sets background opacity for the console",
   "fQCZKeyDelay": "Delay in seconds before the player grabs an interactive object."
 }
