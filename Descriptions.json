@@ -851,5 +851,8 @@
   "bEnableStarsOnPlanet": "1= Stars visible in skybox on planet, 0= Stars not visible in skybox on planet.",
   "bBudgetEnabled": "Whether or not outposts have a build budget. 1 for build limit, 0 for unlimited building (no budget).",
   "fBudgetBaseCost": "Multiplier for outpost building budget cost.",
-  "fBudgetBaseline": "Outpost building budget, if enabled. See bBudgetEnabled."
+  "fBudgetBaseline": "Outpost building budget, if enabled. See bBudgetEnabled.",
+  "fMaxAnisotropy": "Anistropic filtering multiplier. Set it to 16 to greatly improve oblique texture quality with almost no performance impact.  In particular, it makes planet surfaces look MUCH more detailed",
+  "fResourceVeinOpenDuration": "How long it takes for resource veins to close",
+  "fResourceVeinCloseDuration": "How long it takes for resource veins to close"
 }
