@@ -859,5 +859,8 @@
   "bStarMapEnableLifeIcon": "Display a life icon (a leaf) on Starmap near planets likely to harbor life.",
   "bStarMapGravityWavesEnableNoise": "Set if a noise is applied on Starmap gravity waves",
   "fMouseHeadingSensitivityMin": "Sets the minimum sensitivity value of the in-game mouse sensitivity slider.",
-  "fMouseHeadingSensitivityMax": "Sets the maximum sensitivity value of the in-game mouse sensitivity slider."
+  "fMouseHeadingSensitivityMax": "Sets the maximum sensitivity value of the in-game mouse sensitivity slider.",
+  "bEnableDialogueLight": "Enable or disable the light cast on npcs face when a dialogue is triggered",
+  "bDialogueLightRemoveNoMatch": "Turns on/off the dialogue light camera. 1 = ON 0 = OFF",
+  "fShipBuilderModuleOverlapTolerance": "Overlap Tolerance for Ship Parts in Build Mode"
 }
