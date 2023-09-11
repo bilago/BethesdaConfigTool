@@ -862,5 +862,7 @@
   "fMouseHeadingSensitivityMax": "Sets the maximum sensitivity value of the in-game mouse sensitivity slider.",
   "bEnableDialogueLight": "Enable or disable the light cast on npcs face when a dialogue is triggered",
   "bDialogueLightRemoveNoMatch": "Turns on/off the dialogue light camera. 1 = ON 0 = OFF",
-  "fShipBuilderModuleOverlapTolerance": "Overlap Tolerance for Ship Parts in Build Mode"
+  "fShipBuilderModuleOverlapTolerance": "Overlap Tolerance for Ship Parts in Build Mode",
+  "uLandingKeepBufferSize": "This is the maximum number of your recent landing sites that will be remembered by the system. The actual amount is the value+1, so a value of 9 would cause the system to keep track of your last 10 landing spots.",
+  "fDefaultShipAutoVanityZoomScale": "Ship idle camera distance"
 }
