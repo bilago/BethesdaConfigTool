@@ -864,5 +864,15 @@
   "bDialogueLightRemoveNoMatch": "Turns on/off the dialogue light camera. 1 = ON 0 = OFF",
   "fShipBuilderModuleOverlapTolerance": "Overlap Tolerance for Ship Parts in Build Mode",
   "uLandingKeepBufferSize": "This is the maximum number of your recent landing sites that will be remembered by the system. The actual amount is the value+1, so a value of 9 would cause the system to keep track of your last 10 landing spots.",
-  "fDefaultShipAutoVanityZoomScale": "Ship idle camera distance"
+  "fDefaultShipAutoVanityZoomScale": "Ship idle camera distance",
+  "bUsePressAndHoldControls": "0: Boostpack has a set amount of duration. 1: Boostpack starts\\stops by holding\\releasing space.",
+  "fZeroGBoostDrainInitial": "Amount of fuel drained on first press",
+  "fZeroGBoostDrainSustained": "Amount of fuel drained while holding space",
+  "fZeroGBoostMinFuelRequired": "Minimum amount of fuel needed to activate boost",
+  "fZeroGBoostTimeToSustained": "Time from fZeroGBoostDrainInitial to fZeroGBoostDrainSustained",
+  "fStarMapGalaxyRotationMaxYaw": "Distance your able to rotate the galxay starmap on the x axis. 45-180 works well",
+  "fStarMapGalaxyRotationMaxPitch": "Distance your able to rotate the galxay starmap on the Y axis. 30-85 works well.",
+  "fStarMapGalaxyCameraYaw": "The angle/degress the camera is positioned on the X(yaw) axis while looking at Galaxy StarMap. Can help offset the default to be able to see slightly better. 130-170 seems good.",
+  "fStarMapGalaxyCameraPitch": "The angle/degress the camera is positioned on the Y(Pitch) axis while looking at Galaxy StarMap. Can help offset the default to be able to see slightly better. 0 Is what I have used but -20 - 20 should be good.",
+  "fStarMapGalaxyCameraDefaultFOV": "Field of View for Galaxy StarMap View"
 }
