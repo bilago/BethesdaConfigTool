@@ -872,7 +872,7 @@
   "fZeroGBoostTimeToSustained": "Time from fZeroGBoostDrainInitial to fZeroGBoostDrainSustained",
   "fStarMapGalaxyRotationMaxYaw": "Distance your able to rotate the galxay starmap on the x axis. 45-180 works well",
   "fStarMapGalaxyRotationMaxPitch": "Distance your able to rotate the galxay starmap on the Y axis. 30-85 works well.",
-  "fStarMapGalaxyCameraYaw": "The angle/degress the camera is positioned on the X(yaw) axis while looking at Galaxy StarMap. Can help offset the default to be able to see slightly better. 130-170 seems good.",
-  "fStarMapGalaxyCameraPitch": "The angle/degress the camera is positioned on the Y(Pitch) axis while looking at Galaxy StarMap. Can help offset the default to be able to see slightly better. 0 Is what I have used but -20 - 20 should be good.",
+  "fStarMapGalaxyCameraYaw": "The angle/degrees the camera is positioned on the X(yaw) axis while looking at Galaxy StarMap. Can help offset the default to be able to see slightly better. 130-170 seems good.",
+  "fStarMapGalaxyCameraPitch": "The angle/degrees the camera is positioned on the Y(Pitch) axis while looking at Galaxy StarMap. Can help offset the default to be able to see slightly better. 0 Is what I have used but -20 - 20 should be good.",
   "fStarMapGalaxyCameraDefaultFOV": "Field of View for Galaxy StarMap View"
 }
