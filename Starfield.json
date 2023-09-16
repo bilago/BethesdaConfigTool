@@ -85,7 +85,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff0000"
+    "DefaultValue": "255,0,0"
   },
   {
     "Name": "rDisabledColor",
@@ -93,7 +93,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff0000"
+    "DefaultValue": "255,0,0"
   },
   {
     "Name": "rEdgeBadColor",
@@ -101,7 +101,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffff00"
+    "DefaultValue": "255,255,0"
   },
   {
     "Name": "rEdgeHasCoverColor",
@@ -109,7 +109,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff0000"
+    "DefaultValue": "255,0,0"
   },
   {
     "Name": "rEdgeNormalColor",
@@ -117,7 +117,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffff00"
+    "DefaultValue": "255,255,0"
   },
   {
     "Name": "rEdgeOnCellBorderColor",
@@ -125,7 +125,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffffc0"
+    "DefaultValue": "255,255,192"
   },
   {
     "Name": "rEdgeOutsideColor",
@@ -133,7 +133,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffffff"
+    "DefaultValue": "255,255,255"
   },
   {
     "Name": "rEdgePortalColor",
@@ -141,7 +141,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff00ff"
+    "DefaultValue": "255,0,255"
   },
   {
     "Name": "rHiddenColor",
@@ -149,7 +149,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff0000"
+    "DefaultValue": "255,0,0"
   },
   {
     "Name": "rHoverColor",
@@ -157,7 +157,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffffff"
+    "DefaultValue": "255,255,255"
   },
   {
     "Name": "rSelectedColor",
@@ -165,7 +165,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff00ff"
+    "DefaultValue": "255,0,255"
   },
   {
     "Name": "rSelectedHoverColor",
@@ -173,7 +173,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "8000c8"
+    "DefaultValue": "128,0,200"
   },
   {
     "Name": "rTriAvoidColor",
@@ -181,7 +181,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffc000"
+    "DefaultValue": "255,192,0"
   },
   {
     "Name": "rTriCheckHeightColor",
@@ -189,7 +189,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff3200"
+    "DefaultValue": "255,50,0"
   },
   {
     "Name": "rTriDoorColor",
@@ -197,7 +197,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffffff"
+    "DefaultValue": "255,255,255"
   },
   {
     "Name": "rTriHasDoorPortalColor",
@@ -205,7 +205,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff00ff"
+    "DefaultValue": "255,0,255"
   },
   {
     "Name": "rTriHighCostPathColor",
@@ -213,7 +213,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff3280"
+    "DefaultValue": "255,50,128"
   },
   {
     "Name": "rTriInvalidColor",
@@ -221,7 +221,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffffc0"
+    "DefaultValue": "255,255,192"
   },
   {
     "Name": "rTriLayerColor",
@@ -229,7 +229,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffffff"
+    "DefaultValue": "255,255,255"
   },
   {
     "Name": "rTriNoLargeCreatureColor",
@@ -237,7 +237,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffff80"
+    "DefaultValue": "255,255,128"
   },
   {
     "Name": "rTriNormalColor",
@@ -245,7 +245,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffff00"
+    "DefaultValue": "255,255,0"
   },
   {
     "Name": "rTriObstacleBoundsColor",
@@ -253,7 +253,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffc020"
+    "DefaultValue": "255,192,32"
   },
   {
     "Name": "rTriObstacleColor",
@@ -261,7 +261,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffff00"
+    "DefaultValue": "255,255,0"
   },
   {
     "Name": "rTriPlatformrColor",
@@ -269,7 +269,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff00ff"
+    "DefaultValue": "255,0,255"
   },
   {
     "Name": "rTriPreferredColor",
@@ -277,7 +277,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffff80"
+    "DefaultValue": "255,255,128"
   },
   {
     "Name": "rTriShoreWaterColor",
@@ -285,7 +285,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff0099"
+    "DefaultValue": "255,0,153"
   },
   {
     "Name": "rTriTerrainColor",
@@ -293,7 +293,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff8b45"
+    "DefaultValue": "255,139,69"
   },
   {
     "Name": "rTriWaterColor",
@@ -301,7 +301,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff0000"
+    "DefaultValue": "255,0,0"
   },
   {
     "Name": "rVerFreeColor",
@@ -309,7 +309,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffffff"
+    "DefaultValue": "255,255,255"
   },
   {
     "Name": "rVertCoverColor",
@@ -317,7 +317,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffff80"
+    "DefaultValue": "255,255,128"
   },
   {
     "Name": "rVertNonConnectorColor",
@@ -325,7 +325,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffff00"
+    "DefaultValue": "255,255,0"
   },
   {
     "Name": "rVertNormalColor",
@@ -333,7 +333,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffff00"
+    "DefaultValue": "255,255,0"
   },
   {
     "Name": "rVertPreferredConnectorColor",
@@ -341,7 +341,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff00ff"
+    "DefaultValue": "255,0,255"
   },
   {
     "Name": "riTriCover0Color",
@@ -349,7 +349,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffffff"
+    "DefaultValue": "255,255,255"
   },
   {
     "Name": "riTriCover1Color",
@@ -357,7 +357,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff00ff"
+    "DefaultValue": "255,0,255"
   },
   {
     "Name": "riTriCover2Color",
@@ -365,7 +365,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff0000"
+    "DefaultValue": "255,0,0"
   },
   {
     "Name": "riTriCover3Color",
@@ -373,7 +373,15 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffffff"
+    "DefaultValue": "255,255,255"
+  },
+  {
+    "Name": "fNavMeshMovementTiltSpeed",
+    "Section": ":Actor",
+    "Files": [
+      "StarfieldCustom.ini"
+    ],
+    "DefaultValue": 30.0
   },
   {
     "Name": "bAnimateHiddenClothingSpacesuit",
@@ -798,14 +806,6 @@
       "StarfieldCustom.ini"
     ],
     "DefaultValue": 80
-  },
-  {
-    "Name": "fNavMeshMovementTiltSpeed",
-    "Section": "Actor",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 30.0
   },
   {
     "Name": "bUseMovementLOD",
@@ -1912,22 +1912,6 @@
     "DefaultValue": 2
   },
   {
-    "Name": "SResourceArchiveList",
-    "Section": "Archive",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": "Starfield - Animations.ba2, Starfield - DensityMaps.ba2, Starfield - FaceAnimation01.ba2, Starfield - FaceAnimation02.ba2, Starfield - FaceAnimation03.ba2, Starfield - FaceAnimation04.ba2, Starfield - FaceAnimationPatch.ba2, Starfield - FaceMeshes.ba2, Starfield - GeneratedTextures.ba2, Starfield - LODMeshes.ba2, Starfield - LODMeshesPatch.ba2, Starfield - Materials.ba2, Starfield - Meshes01.ba2, Starfield - Meshes02.ba2, Starfield - MeshesPatch.ba2, Starfield - Misc.ba2, Starfield - Particles.ba2, Starfield - PlanetData.ba2, Starfield - Terrain01.ba2, Starfield - Terrain02.ba2, Starfield - Terrain03.ba2, Starfield - Terrain04.ba2, Starfield - TerrainPatch.ba2"
-  },
-  {
-    "Name": "SResourceArchiveMemoryCacheList",
-    "Section": "Archive",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": "Starfield - Interface.ba2, Starfield - Misc.ba2"
-  },
-  {
     "Name": "bCheckRuntimeCollisions",
     "Section": "Archive",
     "Files": [
@@ -2030,6 +2014,22 @@
       "StarfieldCustom.ini"
     ],
     "DefaultValue": "ArchiveInvalidation.txt"
+  },
+  {
+    "Name": "sResourceArchiveList",
+    "Section": "Archive",
+    "Files": [
+      "StarfieldCustom.ini"
+    ],
+    "DefaultValue": "Starfield - Animations.ba2, Starfield - DensityMaps.ba2, Starfield - FaceAnimation01.ba2, Starfield - FaceAnimation02.ba2, Starfield - FaceAnimation03.ba2, Starfield - FaceAnimation04.ba2, Starfield - FaceAnimationPatch.ba2, Starfield - FaceMeshes.ba2, Starfield - GeneratedTextures.ba2, Starfield - LODMeshes.ba2, Starfield - LODMeshesPatch.ba2, Starfield - Materials.ba2, Starfield - Meshes01.ba2, Starfield - Meshes02.ba2, Starfield - MeshesPatch.ba2, Starfield - Misc.ba2, Starfield - Particles.ba2, Starfield - PlanetData.ba2, Starfield - Terrain01.ba2, Starfield - Terrain02.ba2, Starfield - Terrain03.ba2, Starfield - Terrain04.ba2, Starfield - TerrainPatch.ba2"
+  },
+  {
+    "Name": "sResourceArchiveMemoryCacheList",
+    "Section": "Archive",
+    "Files": [
+      "StarfieldCustom.ini"
+    ],
+    "DefaultValue": "Starfield - Interface.ba2, Starfield - Misc.ba2"
   },
   {
     "Name": "sResourceArchiveRetainFileNameList",
@@ -4949,7 +4949,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 85.0
+    "DefaultValue": 85
   },
   {
     "Name": "fFarCameraDistanceOffset",
@@ -5493,7 +5493,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 70.0
+    "DefaultValue": 70
   },
   {
     "Name": "fTakeControlXAngle",
@@ -7560,14 +7560,6 @@
     "DefaultValue": 1
   },
   {
-    "Name": "bAlwaysRunByDefault",
-    "Section": "Controls",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 1
-  },
-  {
     "Name": "bBackgroundMouse",
     "Section": "Controls",
     "Files": [
@@ -7697,14 +7689,6 @@
   },
   {
     "Name": "bUseCyclicControlInFirstPerson",
-    "Section": "Controls",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 0
-  },
-  {
-    "Name": "bUseLocaleVoices",
     "Section": "Controls",
     "Files": [
       "StarfieldCustom.ini"
@@ -8541,7 +8525,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff95997b"
+    "DefaultValue": "255,149,153,123"
   },
   {
     "Name": "aHighlightArmorOutlineColor",
@@ -8549,7 +8533,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff95997b"
+    "DefaultValue": "255,149,153,123"
   },
   {
     "Name": "aHighlightDrugsFillColor",
@@ -8557,7 +8541,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffb7b7b7"
+    "DefaultValue": "255,183,183,183"
   },
   {
     "Name": "aHighlightDrugsOutlineColor",
@@ -8565,7 +8549,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffb7b7b7"
+    "DefaultValue": "255,183,183,183"
   },
   {
     "Name": "aHighlightFoodFillColor",
@@ -8573,7 +8557,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff409056"
+    "DefaultValue": "255,64,144,86"
   },
   {
     "Name": "aHighlightFoodOutlineColor",
@@ -8581,7 +8565,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff409056"
+    "DefaultValue": "255,64,144,86"
   },
   {
     "Name": "aHighlightWeaponsFillColor",
@@ -8589,7 +8573,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "40b3552c"
+    "DefaultValue": "64,179,85,44"
   },
   {
     "Name": "aHighlightWeaponsOutlineColor",
@@ -8597,7 +8581,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffb3552c"
+    "DefaultValue": "255,179,85,44"
   },
   {
     "Name": "bFreeItemCrafting",
@@ -9512,6 +9496,14 @@
     "DefaultValue": 0.0
   },
   {
+    "Name": "fUpdateBudgetMS",
+    "Section": "DeferredDeleter",
+    "Files": [
+      "StarfieldCustom.ini"
+    ],
+    "DefaultValue": 1.0
+  },
+  {
     "Name": "bAllowDialogueLightMovement",
     "Section": "Dialogue",
     "Files": [
@@ -9981,7 +9973,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "19ff0000"
+    "DefaultValue": "25,255,0,0"
   },
   {
     "Name": "bAccelerationStructureIgnoreExclusionFlag",
@@ -10201,14 +10193,6 @@
   },
   {
     "Name": "bDenserProbes",
-    "Section": "Display",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 1
-  },
-  {
-    "Name": "bDepthOfFieldEnable",
     "Section": "Display",
     "Files": [
       "StarfieldCustom.ini"
@@ -13464,6 +13448,14 @@
     "DefaultValue": "Data\\Textures\\Photos"
   },
   {
+    "Name": "sRingModelFilename",
+    "Section": "Display",
+    "Files": [
+      "StarfieldCustom.ini"
+    ],
+    "DefaultValue": "Data\\Meshes\\Planets\\HoudiniPlanets\\HoudiniPlanet_ring.nif"
+  },
+  {
     "Name": "sScreenShotBaseName",
     "Section": "Display",
     "Files": [
@@ -15409,14 +15401,6 @@
   },
   {
     "Name": "bShow3rdPersonPilot",
-    "Section": "GamePlay",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 1
-  },
-  {
-    "Name": "bShowQuestMarkers",
     "Section": "GamePlay",
     "Files": [
       "StarfieldCustom.ini"
@@ -18984,6 +18968,14 @@
     "DefaultValue": 0.8
   },
   {
+    "Name": "fMoveLimitMass",
+    "Section": "HAVOK",
+    "Files": [
+      "StarfieldCustom.ini"
+    ],
+    "DefaultValue": 95.0
+  },
+  {
     "Name": "fNormalZOfCPToPossiblyIgnore",
     "Section": "HAVOK",
     "Files": [
@@ -19253,7 +19245,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 4278255360
+    "DefaultValue": "4278255360"
   },
   {
     "Name": "fActorFootIKDistanceSqr",
@@ -22717,7 +22709,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00000000"
+    "DefaultValue": "0,0,0,0"
   },
   {
     "Name": "bConsoleCopiesOnlyFormID",
@@ -22805,7 +22797,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "999999"
+    "DefaultValue": "153,153,153"
   },
   {
     "Name": "rConsoleTextColor",
@@ -22813,7 +22805,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffffff"
+    "DefaultValue": "255,255,255"
   },
   {
     "Name": "rDebugTextColor",
@@ -22821,7 +22813,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "fffffb"
+    "DefaultValue": "255,255,251"
   },
   {
     "Name": "sConsoleDefaultINI",
@@ -22989,7 +22981,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "003eadf2"
+    "DefaultValue": "0,62,173,242"
   },
   {
     "Name": "aHighlightScannableFillColor_FullyScanned",
@@ -22997,7 +22989,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "2027c684"
+    "DefaultValue": "32,39,198,132"
   },
   {
     "Name": "aHighlightScannableFillColor_Generic",
@@ -23005,7 +22997,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00000000"
+    "DefaultValue": "0,0,0,0"
   },
   {
     "Name": "aHighlightScannableFillColor_Scanned",
@@ -23013,7 +23005,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "201f8ee2"
+    "DefaultValue": "32,31,142,226"
   },
   {
     "Name": "aHighlightScannableFillColor_Social",
@@ -23021,7 +23013,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "221f8ee2"
+    "DefaultValue": "34,31,142,226"
   },
   {
     "Name": "aHighlightScannableFillColor_TargetFullyScanned",
@@ -23029,7 +23021,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "4027c684"
+    "DefaultValue": "64,39,198,132"
   },
   {
     "Name": "aHighlightScannableFillColor_TargetGeneric",
@@ -23037,7 +23029,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00000000"
+    "DefaultValue": "0,0,0,0"
   },
   {
     "Name": "aHighlightScannableFillColor_TargetScannable",
@@ -23045,7 +23037,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00b3c1ef"
+    "DefaultValue": "0,179,193,239"
   },
   {
     "Name": "aHighlightScannableFillColor_TargetScanned",
@@ -23053,7 +23045,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "401f8ee2"
+    "DefaultValue": "64,31,142,226"
   },
   {
     "Name": "aHighlightScannableFillColor_Tracked",
@@ -23061,7 +23053,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "01ffaa00"
+    "DefaultValue": "1,255,170,0"
   },
   {
     "Name": "aHighlightScannableOutlineColorHigh",
@@ -23069,7 +23061,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff3eadf2"
+    "DefaultValue": "255,62,173,242"
   },
   {
     "Name": "aHighlightScannableOutlineColorHigh_FullyScanned",
@@ -23077,7 +23069,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff27c684"
+    "DefaultValue": "255,39,198,132"
   },
   {
     "Name": "aHighlightScannableOutlineColorHigh_Generic",
@@ -23085,7 +23077,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff72e8ff"
+    "DefaultValue": "255,114,232,255"
   },
   {
     "Name": "aHighlightScannableOutlineColorHigh_Scanned",
@@ -23093,7 +23085,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff1f8ee2"
+    "DefaultValue": "255,31,142,226"
   },
   {
     "Name": "aHighlightScannableOutlineColorHigh_Social",
@@ -23101,7 +23093,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff72e8ff"
+    "DefaultValue": "255,114,232,255"
   },
   {
     "Name": "aHighlightScannableOutlineColorHigh_TargetFullyScanned",
@@ -23109,7 +23101,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff27c684"
+    "DefaultValue": "255,39,198,132"
   },
   {
     "Name": "aHighlightScannableOutlineColorHigh_TargetGeneric",
@@ -23117,7 +23109,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff72e8ff"
+    "DefaultValue": "255,114,232,255"
   },
   {
     "Name": "aHighlightScannableOutlineColorHigh_TargetScannable",
@@ -23125,7 +23117,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff72e8ff"
+    "DefaultValue": "255,114,232,255"
   },
   {
     "Name": "aHighlightScannableOutlineColorHigh_TargetScanned",
@@ -23133,7 +23125,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff1f8ee2"
+    "DefaultValue": "255,31,142,226"
   },
   {
     "Name": "aHighlightScannableOutlineColorHigh_Tracked",
@@ -23141,7 +23133,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffffaa00"
+    "DefaultValue": "255,255,170,0"
   },
   {
     "Name": "aHighlightScannableOutlineColorLow",
@@ -23149,7 +23141,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "803eadf2"
+    "DefaultValue": "128,62,173,242"
   },
   {
     "Name": "aHighlightScannableOutlineColorLow_FullyScanned",
@@ -23157,7 +23149,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "8027c684"
+    "DefaultValue": "128,39,198,132"
   },
   {
     "Name": "aHighlightScannableOutlineColorLow_Generic",
@@ -23165,7 +23157,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff115b69"
+    "DefaultValue": "255,17,91,105"
   },
   {
     "Name": "aHighlightScannableOutlineColorLow_Scanned",
@@ -23173,7 +23165,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "801f8ee2"
+    "DefaultValue": "128,31,142,226"
   },
   {
     "Name": "aHighlightScannableOutlineColorLow_Social",
@@ -23181,7 +23173,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff115b69"
+    "DefaultValue": "255,17,91,105"
   },
   {
     "Name": "aHighlightScannableOutlineColorLow_TargetFullyScanned",
@@ -23189,7 +23181,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "8027c684"
+    "DefaultValue": "128,39,198,132"
   },
   {
     "Name": "aHighlightScannableOutlineColorLow_TargetGeneric",
@@ -23197,7 +23189,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff115b69"
+    "DefaultValue": "255,17,91,105"
   },
   {
     "Name": "aHighlightScannableOutlineColorLow_TargetScannable",
@@ -23205,7 +23197,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff115b69"
+    "DefaultValue": "255,17,91,105"
   },
   {
     "Name": "aHighlightScannableOutlineColorLow_TargetScanned",
@@ -23213,7 +23205,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "801f8ee2"
+    "DefaultValue": "128,31,142,226"
   },
   {
     "Name": "aHighlightScannableOutlineColorLow_Tracked",
@@ -23221,7 +23213,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "80ffaa00"
+    "DefaultValue": "128,255,170,0"
   },
   {
     "Name": "fHighlightOutlineColorPulseTime",
@@ -27976,78 +27968,6 @@
     "DefaultValue": 10
   },
   {
-    "Name": "uAtmosphericScattering",
-    "Section": "Quality",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 5
-  },
-  {
-    "Name": "uDecals",
-    "Section": "Quality",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 5
-  },
-  {
-    "Name": "uDynamicResolution",
-    "Section": "Quality",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 5
-  },
-  {
-    "Name": "uGeometry",
-    "Section": "Quality",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 5
-  },
-  {
-    "Name": "uPostEffects",
-    "Section": "Quality",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 5
-  },
-  {
-    "Name": "uTerrain",
-    "Section": "Quality",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 5
-  },
-  {
-    "Name": "uTransparency",
-    "Section": "Quality",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 5
-  },
-  {
-    "Name": "uVariableRateShading",
-    "Section": "Quality",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 5
-  },
-  {
-    "Name": "uViewDistance",
-    "Section": "Quality",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 5
-  },
-  {
     "Name": "fDesiredVel",
     "Section": "RagdollAnim",
     "Files": [
@@ -30277,7 +30197,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "002198b0"
+    "DefaultValue": "0,33,152,176"
   },
   {
     "Name": "aShipBuilderColorCustomizing",
@@ -30285,7 +30205,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00000000"
+    "DefaultValue": "0,0,0,0"
   },
   {
     "Name": "aShipBuilderColorDimmed",
@@ -30293,7 +30213,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "4d808080"
+    "DefaultValue": "77,128,128,128"
   },
   {
     "Name": "aShipBuilderColorEditValid",
@@ -30301,7 +30221,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "002198b0"
+    "DefaultValue": "0,33,152,176"
   },
   {
     "Name": "aShipBuilderColorHangar",
@@ -30309,7 +30229,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "322198b0"
+    "DefaultValue": "50,33,152,176"
   },
   {
     "Name": "aShipBuilderColorHover",
@@ -30317,7 +30237,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "192198b0"
+    "DefaultValue": "25,33,152,176"
   },
   {
     "Name": "aShipBuilderColorHoverSelected",
@@ -30325,7 +30245,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00ff9980"
+    "DefaultValue": "0,255,153,128"
   },
   {
     "Name": "aShipBuilderColorSelected",
@@ -30333,7 +30253,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "19ff6000"
+    "DefaultValue": "25,255,96,0"
   },
   {
     "Name": "aShipBuilderColorSnapValid",
@@ -30341,7 +30261,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "1900ff32"
+    "DefaultValue": "25,0,255,50"
   },
   {
     "Name": "aShipBuilderColorUpgrade",
@@ -30349,7 +30269,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "322198b0"
+    "DefaultValue": "50,33,152,176"
   },
   {
     "Name": "aShipBuilderColorWarning",
@@ -30357,7 +30277,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "64810000"
+    "DefaultValue": "100,129,0,0"
   },
   {
     "Name": "aShipBuilderCompatibleSnapNodeColor",
@@ -30365,7 +30285,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00000000"
+    "DefaultValue": "0,0,0,0"
   },
   {
     "Name": "aShipBuilderCompatibleSnapNodeOutlineColor",
@@ -30373,7 +30293,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00000000"
+    "DefaultValue": "0,0,0,0"
   },
   {
     "Name": "aShipBuilderDefaultSnapNodeColor",
@@ -30381,7 +30301,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00000000"
+    "DefaultValue": "0,0,0,0"
   },
   {
     "Name": "aShipBuilderDefaultSnapNodeOutlineColor",
@@ -30389,7 +30309,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00000000"
+    "DefaultValue": "0,0,0,0"
   },
   {
     "Name": "aShipBuilderOutlineColorAddValid",
@@ -30397,7 +30317,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff2198b0"
+    "DefaultValue": "255,33,152,176"
   },
   {
     "Name": "aShipBuilderOutlineColorCustomizing",
@@ -30405,7 +30325,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff2198b0"
+    "DefaultValue": "255,33,152,176"
   },
   {
     "Name": "aShipBuilderOutlineColorDimmed",
@@ -30413,7 +30333,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffff0000"
+    "DefaultValue": "255,255,0,0"
   },
   {
     "Name": "aShipBuilderOutlineColorEditValid",
@@ -30421,7 +30341,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff2198b0"
+    "DefaultValue": "255,33,152,176"
   },
   {
     "Name": "aShipBuilderOutlineColorHangar",
@@ -30429,7 +30349,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff2198b0"
+    "DefaultValue": "255,33,152,176"
   },
   {
     "Name": "aShipBuilderOutlineColorHover",
@@ -30437,7 +30357,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff2198b0"
+    "DefaultValue": "255,33,152,176"
   },
   {
     "Name": "aShipBuilderOutlineColorHoverSelected",
@@ -30445,7 +30365,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffff4000"
+    "DefaultValue": "255,255,64,0"
   },
   {
     "Name": "aShipBuilderOutlineColorSelected",
@@ -30453,7 +30373,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffff4000"
+    "DefaultValue": "255,255,64,0"
   },
   {
     "Name": "aShipBuilderOutlineColorSnapValid",
@@ -30461,7 +30381,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff00ff32"
+    "DefaultValue": "255,0,255,50"
   },
   {
     "Name": "aShipBuilderOutlineColorUpgrade",
@@ -30469,7 +30389,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff2198b0"
+    "DefaultValue": "255,33,152,176"
   },
   {
     "Name": "aShipBuilderOutlineColorWarning",
@@ -30477,7 +30397,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff810000"
+    "DefaultValue": "255,129,0,0"
   },
   {
     "Name": "aShipBuilderOutlineOptionAddValid",
@@ -30485,7 +30405,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00ffff00"
+    "DefaultValue": "0,255,255,0"
   },
   {
     "Name": "aShipBuilderOutlineOptionColorCustomizing",
@@ -30493,7 +30413,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00ffff00"
+    "DefaultValue": "0,255,255,0"
   },
   {
     "Name": "aShipBuilderOutlineOptionDimmed",
@@ -30501,7 +30421,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00ffff00"
+    "DefaultValue": "0,255,255,0"
   },
   {
     "Name": "aShipBuilderOutlineOptionEditValid",
@@ -30509,7 +30429,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00ffff00"
+    "DefaultValue": "0,255,255,0"
   },
   {
     "Name": "aShipBuilderOutlineOptionHover",
@@ -30517,7 +30437,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00ffff00"
+    "DefaultValue": "0,255,255,0"
   },
   {
     "Name": "aShipBuilderOutlineOptionHoverSelected",
@@ -30525,7 +30445,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00ffff00"
+    "DefaultValue": "0,255,255,0"
   },
   {
     "Name": "aShipBuilderOutlineOptionSelected",
@@ -30533,7 +30453,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00ffff00"
+    "DefaultValue": "0,255,255,0"
   },
   {
     "Name": "aShipBuilderOutlineOptionWarning",
@@ -30541,7 +30461,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00ffff00"
+    "DefaultValue": "0,255,255,0"
   },
   {
     "Name": "aShipBuilderOutlineOptionsHangar",
@@ -30549,7 +30469,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00ffff00"
+    "DefaultValue": "0,255,255,0"
   },
   {
     "Name": "aShipBuilderOutlineOptionsSnapValid",
@@ -30557,7 +30477,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00ffff00"
+    "DefaultValue": "0,255,255,0"
   },
   {
     "Name": "aShipBuilderOutlineOptionsUpgrade",
@@ -30565,7 +30485,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00ffff00"
+    "DefaultValue": "0,255,255,0"
   },
   {
     "Name": "bAddRuntimeFoundBlueprintInteractionOffsetRefs",
@@ -31765,7 +31685,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "fffdf4db"
+    "DefaultValue": "255,253,244,219"
   },
   {
     "Name": "aStarMapGalaxyUndiscoveredNotInRangeColor",
@@ -31773,7 +31693,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffe25f57"
+    "DefaultValue": "255,226,95,87"
   },
   {
     "Name": "aStarMapGravityWavesColor",
@@ -31781,7 +31701,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff4281ff"
+    "DefaultValue": "255,66,129,255"
   },
   {
     "Name": "aStarMapOrbitsColor",
@@ -31789,7 +31709,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff1b2528"
+    "DefaultValue": "255,27,37,40"
   },
   {
     "Name": "bAllowFastTravelToOrbitals",
@@ -35541,7 +35461,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "40aa0f0f"
+    "DefaultValue": "64,170,15,15"
   },
   {
     "Name": "aHighlightBadPlacementOutlineColor",
@@ -35549,7 +35469,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffaa0f0f"
+    "DefaultValue": "255,170,15,15"
   },
   {
     "Name": "aHighlightBlockFillColor",
@@ -35557,7 +35477,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "24ed5637"
+    "DefaultValue": "36,237,86,55"
   },
   {
     "Name": "aHighlightBlockOutlineColor",
@@ -35565,7 +35485,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffed5637"
+    "DefaultValue": "255,237,86,55"
   },
   {
     "Name": "aHighlightChangeSnapBehaviorFillColor",
@@ -35573,7 +35493,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "40c8b946"
+    "DefaultValue": "64,200,185,70"
   },
   {
     "Name": "aHighlightChangeSnapBehaviorOutlineColor",
@@ -35581,7 +35501,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffc8b946"
+    "DefaultValue": "255,200,185,70"
   },
   {
     "Name": "aHighlightDebugRedFillColor",
@@ -35589,7 +35509,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "24ff0000"
+    "DefaultValue": "36,255,0,0"
   },
   {
     "Name": "aHighlightDebugRedOutlineColor",
@@ -35597,7 +35517,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffff0000"
+    "DefaultValue": "255,255,0,0"
   },
   {
     "Name": "aHighlightDefaultFillColor",
@@ -35605,7 +35525,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "0fe6e6e6"
+    "DefaultValue": "15,230,230,230"
   },
   {
     "Name": "aHighlightDefaultOutlineColor",
@@ -35613,7 +35533,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffe6e6e6"
+    "DefaultValue": "255,230,230,230"
   },
   {
     "Name": "aHighlightDestructedFillColor",
@@ -35621,7 +35541,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00aa0f0f"
+    "DefaultValue": "0,170,15,15"
   },
   {
     "Name": "aHighlightDestructedOutlineColor",
@@ -35629,7 +35549,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffaa0f0f"
+    "DefaultValue": "255,170,15,15"
   },
   {
     "Name": "aHighlightDisabledFillColor",
@@ -35637,7 +35557,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "124c4c4c"
+    "DefaultValue": "18,76,76,76"
   },
   {
     "Name": "aHighlightDisabledOutlineColor",
@@ -35645,7 +35565,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff4c4c4c"
+    "DefaultValue": "255,76,76,76"
   },
   {
     "Name": "aHighlightEditItemFillColor",
@@ -35653,7 +35573,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "40c8b946"
+    "DefaultValue": "64,200,185,70"
   },
   {
     "Name": "aHighlightEditItemOutlineColor",
@@ -35661,7 +35581,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffc8b946"
+    "DefaultValue": "255,200,185,70"
   },
   {
     "Name": "aHighlightFillColor",
@@ -35669,7 +35589,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00e6e6e6"
+    "DefaultValue": "0,230,230,230"
   },
   {
     "Name": "aHighlightGeneratorFillColor",
@@ -35677,7 +35597,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "0f2198b0"
+    "DefaultValue": "15,33,152,176"
   },
   {
     "Name": "aHighlightGeneratorOutlineColor",
@@ -35685,7 +35605,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ff2198b0"
+    "DefaultValue": "255,33,152,176"
   },
   {
     "Name": "aHighlightMarkedForDeleteFillColor",
@@ -35693,7 +35613,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "40aa0f0f"
+    "DefaultValue": "64,170,15,15"
   },
   {
     "Name": "aHighlightMarkedForDeleteOutlineColor",
@@ -35701,7 +35621,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffaa0f0f"
+    "DefaultValue": "255,170,15,15"
   },
   {
     "Name": "aHighlightOutlineColor",
@@ -35709,7 +35629,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffe6e6e6"
+    "DefaultValue": "255,230,230,230"
   },
   {
     "Name": "aHighlightScrapFillColor",
@@ -35717,7 +35637,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "24ffa500"
+    "DefaultValue": "36,255,165,0"
   },
   {
     "Name": "aHighlightScrapOutlineColor",
@@ -35725,7 +35645,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffffa500"
+    "DefaultValue": "255,255,165,0"
   },
   {
     "Name": "aHighlightSnapBehaviorPreviewFillColor",
@@ -35733,7 +35653,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "20c8b946"
+    "DefaultValue": "32,200,185,70"
   },
   {
     "Name": "aHighlightSnapBehaviorPreviewOutlineColor",
@@ -35741,7 +35661,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffc8b946"
+    "DefaultValue": "255,200,185,70"
   },
   {
     "Name": "aHighlightWireFillColor",
@@ -35749,7 +35669,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "24b2b2cc"
+    "DefaultValue": "36,178,178,204"
   },
   {
     "Name": "aHighlightWireOutlineColor",
@@ -35757,7 +35677,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffb2b2cc"
+    "DefaultValue": "255,178,178,204"
   },
   {
     "Name": "aHighlightWorkshopItemFillColor",
@@ -35765,7 +35685,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "00e6e6e6"
+    "DefaultValue": "0,230,230,230"
   },
   {
     "Name": "aHighlightWorkshopItemOutlineColor",
@@ -35773,7 +35693,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ffe6e6e6"
+    "DefaultValue": "255,230,230,230"
   },
   {
     "Name": "bBudgetEnabled",
@@ -36749,7 +36669,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "78c961"
+    "DefaultValue": "120,201,97"
   },
   {
     "Name": "rHavesterExteriorBorderColor",
@@ -36757,7 +36677,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "78c961"
+    "DefaultValue": "120,201,97"
   },
   {
     "Name": "rHavesterInteriorBorderColor",
@@ -36765,7 +36685,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "78c9b5"
+    "DefaultValue": "120,201,181"
   },
   {
     "Name": "rHavesterTopBorderColor",
@@ -36773,7 +36693,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "000000"
+    "DefaultValue": "0,0,0"
   },
   {
     "Name": "rInteriorBorderColor",
@@ -36781,7 +36701,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "78c9b5"
+    "DefaultValue": "120,201,181"
   },
   {
     "Name": "rResourcesExteriorBorderColor",
@@ -36789,7 +36709,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "3c143f"
+    "DefaultValue": "60,20,63"
   },
   {
     "Name": "rResourcesInteriorBorderColor",
@@ -36797,7 +36717,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "3c4455"
+    "DefaultValue": "60,68,85"
   },
   {
     "Name": "rResourcesTopBorderColor",
@@ -36805,7 +36725,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "1e1e1e"
+    "DefaultValue": "30,30,30"
   },
   {
     "Name": "rTopBorderColor",
@@ -36813,7 +36733,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "000000"
+    "DefaultValue": "0,0,0"
   },
   {
     "Name": "sWorkshopBorderMaterial",
@@ -37064,6 +36984,14 @@
     "DefaultValue": 2.0
   },
   {
+    "Name": "bAlwaysRunByDefault",
+    "Section": "Controls",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
     "Name": "bFlightControlInvertPitch",
     "Section": "Controls",
     "Files": [
@@ -37089,6 +37017,14 @@
   },
   {
     "Name": "bToggleIronSights",
+    "Section": "Controls",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "bUseLocaleVoices",
     "Section": "Controls",
     "Files": [
       "StarfieldPrefs.ini"
@@ -37168,6 +37104,14 @@
     "DefaultValue": 1
   },
   {
+    "Name": "bDepthOfFieldEnable",
+    "Section": "Display",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
     "Name": "bDynamicResolutionEnabled",
     "Section": "Display",
     "Files": [
@@ -37205,7 +37149,7 @@
     "Files": [
       "StarfieldPrefs.ini"
     ],
-    "DefaultValue": 1
+    "DefaultValue": 0
   },
   {
     "Name": "bTopMostWindow",
@@ -37237,7 +37181,7 @@
     "Files": [
       "StarfieldPrefs.ini"
     ],
-    "DefaultValue": 4.0
+    "DefaultValue": 4
   },
   {
     "Name": "fRenderResolutionScaleFactor",
@@ -37305,6 +37249,14 @@
   },
   {
     "Name": "bShowFloatingQuestMarkers",
+    "Section": "GamePlay",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "bShowQuestMarkers",
     "Section": "GamePlay",
     "Files": [
       "StarfieldPrefs.ini"
@@ -37389,7 +37341,7 @@
     "Files": [
       "StarfieldPrefs.ini"
     ],
-    "DefaultValue": 0
+    "DefaultValue": 1
   },
   {
     "Name": "bEnableMotionBlur",
@@ -37408,6 +37360,14 @@
     "DefaultValue": 0.7
   },
   {
+    "Name": "uAtmosphericScattering",
+    "Section": "Quality",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 5
+  },
+  {
     "Name": "uContactShadows",
     "Section": "Quality",
     "Files": [
@@ -37417,6 +37377,30 @@
   },
   {
     "Name": "uCrowd",
+    "Section": "Quality",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 5
+  },
+  {
+    "Name": "uDecals",
+    "Section": "Quality",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 5
+  },
+  {
+    "Name": "uDynamicResolution",
+    "Section": "Quality",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 5
+  },
+  {
+    "Name": "uGeometry",
     "Section": "Quality",
     "Files": [
       "StarfieldPrefs.ini"
@@ -37464,6 +37448,14 @@
     "DefaultValue": 5
   },
   {
+    "Name": "uPostEffects",
+    "Section": "Quality",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 5
+  },
+  {
     "Name": "uReflections",
     "Section": "Quality",
     "Files": [
@@ -37481,6 +37473,38 @@
   },
   {
     "Name": "uShadows",
+    "Section": "Quality",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 5
+  },
+  {
+    "Name": "uTerrain",
+    "Section": "Quality",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 5
+  },
+  {
+    "Name": "uTransparency",
+    "Section": "Quality",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 5
+  },
+  {
+    "Name": "uVariableRateShading",
+    "Section": "Quality",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 5
+  },
+  {
+    "Name": "uViewDistance",
     "Section": "Quality",
     "Files": [
       "StarfieldPrefs.ini"
