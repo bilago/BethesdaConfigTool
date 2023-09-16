@@ -766,7 +766,6 @@
   "bDisplayMissingContentDialogue": "This toggles the dialogue box that appears when a save is attempted to be loaded when one or more plugins previously used on that save have been removed from the load order.",
   "bOutputSaveGameScreenshot": "This is believed to be unused by the game. This setting, although introduced in Skyrim, appears to do nothing. The title suggests that it would output a screenshot when a game is saved, but no screenshot was observed, and it does not change the built-in screenshot in the save.",
   "bUsePagedBuffers": "This was added in the official patch 1.4. Since the 1.4 changelog says it \u0022Fixed rare crash with loading saved games,\u0022 this addition most likely is the fix for said issue. Therefore, it is recommended to remain enabled.",
-  "bUseSaveGameHistory": "This is a mystery setting. It is currently unknown what it might do.",
   "iSaveGameBackupCount": "This sets the number of backup save files with a .bak file extension to save. Each additional backup will have a extra .bak added to the end of it (e.g., if set to 2, there will be two backups for autosave1.ess: autosave1.ess.bak and autosave1.ess.bak.bak). Note that these backups are not identical, which leaves reason to believe that either each backup is generated independently of the original save, or there is some bug in the backup mechanism. Setting this to 0 will create no backups.",
   "sSaveGameGameVersionOutdated": "This was moved from the [MAIN] section to the [SaveGame] section. This message is displayed if a savegame from a newer version of the game that is attempted to be loaded on an older version of the game.",
   "sSaveGameSafeMarkerID": "This is a mystery setting. It is currently unknown what it might do.",
@@ -874,5 +873,7 @@
   "fStarMapGalaxyRotationMaxPitch": "Distance your able to rotate the galxay starmap on the Y axis. 30-85 works well.",
   "fStarMapGalaxyCameraYaw": "The angle/degrees the camera is positioned on the X(yaw) axis while looking at Galaxy StarMap. Can help offset the default to be able to see slightly better. 130-170 seems good.",
   "fStarMapGalaxyCameraPitch": "The angle/degrees the camera is positioned on the Y(Pitch) axis while looking at Galaxy StarMap. Can help offset the default to be able to see slightly better. 0 Is what I have used but -20 - 20 should be good.",
-  "fStarMapGalaxyCameraDefaultFOV": "Field of View for Galaxy StarMap View"
+  "fStarMapGalaxyCameraDefaultFOV": "Field of View for Galaxy StarMap View",
+  "fShipBuilderSnapDistance": "minimum distance ship parts need to be snapped into place, higher numer = auto snapped from further away",
+  "fShipBuilderMouseZoomSpeedMultiplier": "how fast mouse is zoomed in and out in the ship builder ui, higher = faster"
 }
