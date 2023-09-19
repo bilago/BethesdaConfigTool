@@ -875,5 +875,13 @@
   "fStarMapGalaxyCameraPitch": "The angle/degrees the camera is positioned on the Y(Pitch) axis while looking at Galaxy StarMap. Can help offset the default to be able to see slightly better. 0 Is what I have used but -20 - 20 should be good.",
   "fStarMapGalaxyCameraDefaultFOV": "Field of View for Galaxy StarMap View",
   "fShipBuilderSnapDistance": "minimum distance ship parts need to be snapped into place, higher numer = auto snapped from further away",
-  "fShipBuilderMouseZoomSpeedMultiplier": "how fast mouse is zoomed in and out in the ship builder ui, higher = faster"
+  "fShipBuilderMouseZoomSpeedMultiplier": "how fast mouse is zoomed in and out in the ship builder ui, higher = faster",
+  "fScanHighlightDotAngle": "This setting controls the highlight circle of the hand scanner. The default value or 0.92 restricts it to the Scanner circle. 0.2 is resonable for fullscreen highlights.",
+  "fFavoritesTimeMult": "How much the game time/speed is slowed with favorites hud is opened. 0 = 100% stopped, 1.0 = Same as gameplay.",
+  "fImpulseLimit": "How much force to apply to physics objects on cell load (Higher values = higher velocity objects experience when loaded into the scene)",
+  "fPlayerGrabThrowStrengthMult": "How much force to apply to thrown objects / NPC ragdolls",
+  "iSurfaceMapPointsPerLength": "Defines the amount of points on the surface map \"per length\" - higher values draw more points, showing more detail.",
+  "fWorkshopIsoCamMaxDistance": "The maximum distance the camera can be pulled out in outpost view mode.",
+  "bConstrainWorkshopIsoCamToBuildArea": "Whether or not the Outpost Camera is tethered to the Outpost's boundaries. Travelling too far causes issues.",
+  "fWorkshopIsoCamStartPitch": "The angle the Outpost Camera starts at. Zero is horizontal. Probably in radians."
 }
