@@ -1,5 +1,661 @@
 [
   {
+    "Name": "uraScatteringQuality",
+    "Section": "AtmosphericScattering",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "bContactShadowHalfResolution",
+    "Section": "ContactShadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "bContactShadowsEnabled",
+    "Section": "ContactShadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "iBlurRadius",
+    "Section": "ContactShadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 2
+  },
+  {
+    "Name": "iContactShadowsQuality",
+    "Section": "ContactShadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "fCrowdActorPlatformSpecificSpawnScalar",
+    "Section": "Crowd",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0.4
+  },
+  {
+    "Name": "uMaxCrowdActorCount",
+    "Section": "Crowd",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 100
+  },
+  {
+    "Name": "bDecals",
+    "Section": "Decals",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "bSkinnedDecals",
+    "Section": "Decals",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "iMaxDecalsPerFrame",
+    "Section": "Decals",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 3
+  },
+  {
+    "Name": "iMaxSkinDecalsPerFrame",
+    "Section": "Decals",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "uMaxDecals",
+    "Section": "Decals",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 25
+  },
+  {
+    "Name": "uMaxSkinDecals",
+    "Section": "Decals",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 5
+  },
+  {
+    "Name": "uMaxSkinDecalsPerActor",
+    "Section": "Decals",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 5
+  },
+  {
+    "Name": "fRenderResolutionSetting",
+    "Section": "DynamicResolution",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0.5
+  },
+  {
+    "Name": "bEnableHalfResGeometries",
+    "Section": "Geometry",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "bHalfResMoments",
+    "Section": "Geometry",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "bHalfResIndirect",
+    "Section": "GlobalIllumination",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "uGIFallbackQuality",
+    "Section": "GlobalIllumination",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "fGrassFadeDistance",
+    "Section": "Grass",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 15
+  },
+  {
+    "Name": "fGrassRandomCullFactor",
+    "Section": "Grass",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 2.5
+  },
+  {
+    "Name": "fGrassStartFadeDistance",
+    "Section": "Grass",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 100
+  },
+  {
+    "Name": "fGrassStartRandomCullDistance",
+    "Section": "Grass",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 10
+  },
+  {
+    "Name": "uGrassMeshInstanceCullingSSFootprint",
+    "Section": "Grass",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 12
+  },
+  {
+    "Name": "uMotionBlurQuality",
+    "Section": "MotionBlur",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "bEnableHalfResParticles",
+    "Section": "Particle",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "uParticleLightingParticleCountQuality",
+    "Section": "Particle",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "fCASSharpnessSetting",
+    "Section": "PostEffects",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0.0
+  },
+  {
+    "Name": "fReflectionProbeLocalToGlobalBlendDistance",
+    "Section": "Reflections",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 70.0
+  },
+  {
+    "Name": "fReflectionProbeLocalToGlobalBlendStart",
+    "Section": "Reflections",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0.0
+  },
+  {
+    "Name": "uReflectionProbeArraySize",
+    "Section": "Reflections",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 24
+  },
+  {
+    "Name": "uReflectionProbeFacesToRenderPerFrame",
+    "Section": "Reflections",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 2
+  },
+  {
+    "Name": "uReflectionsResolution",
+    "Section": "Reflections",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 64
+  },
+  {
+    "Name": "fDistantAOFarBetaThicknessCorrection",
+    "Section": "SAO",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0.15
+  },
+  {
+    "Name": "fDistantAOFarMaxAttenuationDistance",
+    "Section": "SAO",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 3000
+  },
+  {
+    "Name": "fDistantAOFarPower",
+    "Section": "SAO",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 2.5
+  },
+  {
+    "Name": "fDistantAOFarSAORadius",
+    "Section": "SAO",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 8.0
+  },
+  {
+    "Name": "fDistantAOMidBetaThicknessCorrection",
+    "Section": "SAO",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0.2
+  },
+  {
+    "Name": "fDistantAOMidMaxAttenuationDistance",
+    "Section": "SAO",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 600
+  },
+  {
+    "Name": "fDistantAOMidPower",
+    "Section": "SAO",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 2.0
+  },
+  {
+    "Name": "fDistantAOMidSAORadius",
+    "Section": "SAO",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 3.0
+  },
+  {
+    "Name": "fGTAOMaxAttenuationDistance",
+    "Section": "SAO",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 50
+  },
+  {
+    "Name": "fGTAOPower",
+    "Section": "SAO",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1.5
+  },
+  {
+    "Name": "fGTAORadius",
+    "Section": "SAO",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0.3
+  },
+  {
+    "Name": "bShadowCSMStabilizeCascades",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "fShadowCascadeSplitDistance0",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 6
+  },
+  {
+    "Name": "fShadowCascadeSplitDistance1",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 12
+  },
+  {
+    "Name": "fShadowCascadeSplitDistance2",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 50
+  },
+  {
+    "Name": "fShadowCascadeSplitDistance3",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 400
+  },
+  {
+    "Name": "uAdditionalDynamicOnlyLightsBudget",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "uDirectionalLightShadowMapResolution",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1024
+  },
+  {
+    "Name": "uFocusShadowResolution",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1024
+  },
+  {
+    "Name": "uLastCascadeIndexRenderingDynamicGeometries",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 4
+  },
+  {
+    "Name": "uLastCascadeIndexRenderingSkinnedGeometries",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 4
+  },
+  {
+    "Name": "uShadowFilteringQuality",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "uShadowFilteringTransparencies",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "uShadowMapCount1024",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 16
+  },
+  {
+    "Name": "uShadowMapCount128",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 128
+  },
+  {
+    "Name": "uShadowMapCount2048",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "uShadowMapCount256",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 128
+  },
+  {
+    "Name": "uShadowMapCount4096",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "uShadowMapCount512",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 44
+  },
+  {
+    "Name": "uTerrainShadowMapSize",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 256
+  },
+  {
+    "Name": "uTotalDynamicShadowMapRenderCount",
+    "Section": "Shadows",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 12
+  },
+  {
+    "Name": "bEnableStochasticTiling",
+    "Section": "Terrain",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "bEnableStochasticTilingDominantPlane",
+    "Section": "Terrain",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "bEnableTerrainPlanarMapping",
+    "Section": "Terrain",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "fTerrainDisplacementErrorThreshold",
+    "Section": "Terrain",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "fEffectsAlphaThresholdFadeFar",
+    "Section": "Transparency",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 25.17
+  },
+  {
+    "Name": "fEffectsAlphaThresholdFadeNear",
+    "Section": "Transparency",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 15.8
+  },
+  {
+    "Name": "fEffectsHighMinAlphaThreshold",
+    "Section": "Transparency",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 2.0
+  },
+  {
+    "Name": "fEffectsLowMinAlphaThreshold",
+    "Section": "Transparency",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 2.0
+  },
+  {
+    "Name": "fVariableRateShadingVarianceCutoff",
+    "Section": "VariableRateShading",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0.15
+  },
+  {
+    "Name": "fBlockLevel0Distance",
+    "Section": "ViewDistance",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 600
+  },
+  {
+    "Name": "fBlockLevel1Distance",
+    "Section": "ViewDistance",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1200
+  },
+  {
+    "Name": "fBlockLevel2Distance",
+    "Section": "ViewDistance",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 2200
+  },
+  {
+    "Name": "fBlockMaximumDistance",
+    "Section": "ViewDistance",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 10000
+  },
+  {
+    "Name": "fFarDistance",
+    "Section": "ViewDistance",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 6000
+  },
+  {
+    "Name": "bFogMapBlurHalfRes",
+    "Section": "VolumetricLighting",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "bVolumetricIndirectForceFallback",
+    "Section": "VolumetricLighting",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "uraVolumetricLightingPhaseFunction",
+    "Section": "VolumetricLighting",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "uraVolumetricQuality",
+    "Section": "VolumetricLighting",
+    "Files": [
+      "Preset.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
     "Name": "fEdgeDistFromVert",
     "Section": "NavMesh",
     "Files": [
@@ -377,7 +1033,7 @@
   },
   {
     "Name": "fNavMeshMovementTiltSpeed",
-    "Section": ":Actor",
+    "Section": "Actor",
     "Files": [
       "StarfieldCustom.ini"
     ],
@@ -901,7 +1557,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 58.522
+    "DefaultValue": 58.5220
   },
   {
     "Name": "uiAlternatingSubFrameRateFrequency",
@@ -1894,6 +2550,14 @@
       "StarfieldCustom.ini"
     ],
     "DefaultValue": "meshes\\"
+  },
+  {
+    "Name": "strPlayerCharacterBehavior1stPGraphPathAddition",
+    "Section": "Animation",
+    "Files": [
+      "StarfieldCustom.ini"
+    ],
+    "DefaultValue": "_1stPerson\\"
   },
   {
     "Name": "uInterpolationMode",
@@ -3269,7 +3933,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 16.7
+    "DefaultValue": 16.7000
   },
   {
     "Name": "fClientPerformanceFrametimeFourthThreshold",
@@ -5909,7 +6573,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 0.392
+    "DefaultValue": 0.3920
   },
   {
     "Name": "fWorkshopIsoCamSpeedCoefficient3",
@@ -5917,7 +6581,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 0.0
+    "DefaultValue": "5e-05"
   },
   {
     "Name": "fWorkshopIsoCamSpeedCoefficient4",
@@ -6301,7 +6965,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 1020.663
+    "DefaultValue": 1020.6630
   },
   {
     "Name": "fClothTimingBudget",
@@ -6869,7 +7533,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 28.575
+    "DefaultValue": 28.5750
   },
   {
     "Name": "fAimModelPlayerSnapSpeedDeg",
@@ -7013,7 +7677,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 85.725
+    "DefaultValue": 85.7250
   },
   {
     "Name": "fMagnetismFalloffBorderMinMult",
@@ -7093,7 +7757,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 85.725
+    "DefaultValue": 85.7250
   },
   {
     "Name": "fMagnetismMeleeMovementLimit",
@@ -7981,7 +8645,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 2.0287
+    "DefaultValue": 2.0286
   },
   {
     "Name": "fLookGraphCoefficient4",
@@ -11533,7 +12197,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 0.0
+    "DefaultValue": "1e-05"
   },
   {
     "Name": "fDecalLOD0",
@@ -11541,7 +12205,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 25.0
+    "DefaultValue": 25
   },
   {
     "Name": "fDecalLOD0Space",
@@ -11549,7 +12213,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 250.0
+    "DefaultValue": 250
   },
   {
     "Name": "fDecalLifetime",
@@ -11557,7 +12221,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 30.0
+    "DefaultValue": 30
   },
   {
     "Name": "fDefault1stPersonFOV",
@@ -11878,14 +12542,6 @@
       "StarfieldCustom.ini"
     ],
     "DefaultValue": 0.5
-  },
-  {
-    "Name": "fGamma",
-    "Section": "Display",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 2.4
   },
   {
     "Name": "fGammaMax",
@@ -12229,7 +12885,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 0.75
+    "DefaultValue": 0.5
   },
   {
     "Name": "fMinRenderResolutionScaleFactor",
@@ -12237,7 +12893,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 0.5
+    "DefaultValue": 0.75
   },
   {
     "Name": "fMinimumShadowBiasForUnfilteredShadowMapping",
@@ -12534,14 +13190,6 @@
       "StarfieldCustom.ini"
     ],
     "DefaultValue": 1.0
-  },
-  {
-    "Name": "fSkyCellRefFadeDistance",
-    "Section": "Display",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 150000.0
   },
   {
     "Name": "fSkyCubemapAtmosphericScatteringIntensity",
@@ -14320,6 +14968,14 @@
     "DefaultValue": 2
   },
   {
+    "Name": "uraVolumetricLightingTemporalFrameCount",
+    "Section": "Display",
+    "Files": [
+      "StarfieldCustom.ini"
+    ],
+    "DefaultValue": 7
+  },
+  {
     "Name": "bDebugShipRampNavmesh",
     "Section": "DynamicNavmesh",
     "Files": [
@@ -14765,7 +15421,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 28.575
+    "DefaultValue": 28.5750
   },
   {
     "Name": "fMaxLinearSpeedAfterExplosionInSpace",
@@ -15392,14 +16048,6 @@
     "DefaultValue": 1
   },
   {
-    "Name": "bSaveOnPause",
-    "Section": "GamePlay",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 1
-  },
-  {
     "Name": "bShow3rdPersonPilot",
     "Section": "GamePlay",
     "Files": [
@@ -15477,7 +16125,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 58.522
+    "DefaultValue": 58.5220
   },
   {
     "Name": "fPlayerGrabThrowImpulseBase",
@@ -15550,6 +16198,14 @@
       "StarfieldCustom.ini"
     ],
     "DefaultValue": 10
+  },
+  {
+    "Name": "strPipboyScreenGlowEffect",
+    "Section": "GamePlay",
+    "Files": [
+      "StarfieldCustom.ini"
+    ],
+    "DefaultValue": "ScreenGlowEffect01"
   },
   {
     "Name": "uiFlashlightB",
@@ -16110,14 +16766,6 @@
       "StarfieldCustom.ini"
     ],
     "DefaultValue": 1
-  },
-  {
-    "Name": "bGridsDynamic",
-    "Section": "General",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 0
   },
   {
     "Name": "bHealthRegenFromRacePlayerOnly",
@@ -17469,7 +18117,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 58.522
+    "DefaultValue": 58.5220
   },
   {
     "Name": "fTooCloseToBorderDistance",
@@ -17952,6 +18600,14 @@
     "DefaultValue": ""
   },
   {
+    "Name": "strPluginsFileHeader",
+    "Section": "General",
+    "Files": [
+      "StarfieldCustom.ini"
+    ],
+    "DefaultValue": "# This file is used by Fallout4 to keep track of your downloaded content. # Please do not modify this file."
+  },
+  {
     "Name": "uBaseGarbageCleanCount",
     "Section": "General",
     "Files": [
@@ -17998,38 +18654,6 @@
       "StarfieldCustom.ini"
     ],
     "DefaultValue": 10
-  },
-  {
-    "Name": "uGridsToDemand",
-    "Section": "General",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 3
-  },
-  {
-    "Name": "uGridsToLoad",
-    "Section": "General",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 5
-  },
-  {
-    "Name": "uGridsToLoadMax",
-    "Section": "General",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 5
-  },
-  {
-    "Name": "uGridsToLoadMin",
-    "Section": "General",
-    "Files": [
-      "StarfieldCustom.ini"
-    ],
-    "DefaultValue": 3
   },
   {
     "Name": "uInstallMenuPlayVideoDelay",
@@ -18664,6 +19288,14 @@
     "DefaultValue": 0
   },
   {
+    "Name": "bShowDisabledAsserts",
+    "Section": "HAVOK",
+    "Files": [
+      "StarfieldCustom.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
     "Name": "bSingleParticleStep",
     "Section": "HAVOK",
     "Files": [
@@ -18821,7 +19453,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 1224.796
+    "DefaultValue": 1224.7960
   },
   {
     "Name": "fCharacterMaxSlope",
@@ -19685,7 +20317,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 7.162
+    "DefaultValue": 7.1620
   },
   {
     "Name": "f3DMouseVerticalRotationSpeed",
@@ -19693,7 +20325,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 7.162
+    "DefaultValue": 7.1620
   },
   {
     "Name": "f3DMouseZoomSpeed",
@@ -21493,7 +22125,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ipc"
+    "DefaultValue": "ipc:///editor"
   },
   {
     "Name": "sKitEndpoint",
@@ -21501,7 +22133,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "ipc"
+    "DefaultValue": "ipc:///game"
   },
   {
     "Name": "bSkipActorWarpForMismatchWorlds",
@@ -21941,7 +22573,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 28.575
+    "DefaultValue": 28.5750
   },
   {
     "Name": "fTextureDegradeScreenSize0",
@@ -22973,7 +23605,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 0.502
+    "DefaultValue": 0.5020
   },
   {
     "Name": "aHighlightScannableFillColor",
@@ -24301,7 +24933,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 500.0
+    "DefaultValue": 500
   },
   {
     "Name": "fUpdateBudgetMS",
@@ -28269,7 +28901,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 0.0
+    "DefaultValue": "5e-06"
   },
   {
     "Name": "fGTAOMinAttenuationDistance",
@@ -29525,7 +30157,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 120000.0
+    "DefaultValue": 120000
   },
   {
     "Name": "fMenuFocusBias",
@@ -30101,7 +30733,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 0.0
+    "DefaultValue": "5e-06"
   },
   {
     "Name": "fMinFarScatteringDistance",
@@ -30133,7 +30765,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "2.544999973274718e\u002B25"
+    "DefaultValue": 25449999730000000000000000
   },
   {
     "Name": "fPlanetRadius",
@@ -32189,7 +32821,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": -38.865
+    "DefaultValue": -38.8650
   },
   {
     "Name": "fStarMapGalaxyLookAtBoundsZoomedInMinZ",
@@ -32221,7 +32853,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": -38.649
+    "DefaultValue": -38.6490
   },
   {
     "Name": "fStarMapGalaxyLookAtBoundsZoomedOutMinZ",
@@ -32677,7 +33309,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 1.043
+    "DefaultValue": 1.0430
   },
   {
     "Name": "fStarMapSystemMinCameraPitch",
@@ -33541,7 +34173,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": "FIXME"
+    "DefaultValue": "FIXME: EMPTY NAME"
   },
   {
     "Name": "bAlignTerrainShadowClipmapWithLight",
@@ -34357,7 +34989,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 35.719
+    "DefaultValue": 35.7190
   },
   {
     "Name": "fVATSRangedLowHealthPercent",
@@ -36285,7 +36917,7 @@
     "Files": [
       "StarfieldCustom.ini"
     ],
-    "DefaultValue": 71.4
+    "DefaultValue": 71.4000
   },
   {
     "Name": "fItemRotationSpeedMax",
@@ -36904,7 +37536,23 @@
     "DefaultValue": -1.0
   },
   {
+    "Name": "uPersistentUuidData0",
+    "Section": "Bethesda.net",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
     "Name": "uPersistentUuidData0_Steam",
+    "Section": "Bethesda.net",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "uPersistentUuidData1",
     "Section": "Bethesda.net",
     "Files": [
       "StarfieldPrefs.ini"
@@ -36920,7 +37568,23 @@
     "DefaultValue": 0
   },
   {
+    "Name": "uPersistentUuidData2",
+    "Section": "Bethesda.net",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
     "Name": "uPersistentUuidData2_Steam",
+    "Section": "Bethesda.net",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "uPersistentUuidData3",
     "Section": "Bethesda.net",
     "Files": [
       "StarfieldPrefs.ini"
@@ -37149,7 +37813,7 @@
     "Files": [
       "StarfieldPrefs.ini"
     ],
-    "DefaultValue": 0
+    "DefaultValue": 1
   },
   {
     "Name": "bTopMostWindow",
@@ -37176,6 +37840,14 @@
     "DefaultValue": 1.0
   },
   {
+    "Name": "fGamma",
+    "Section": "Display",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 2.4
+  },
+  {
     "Name": "fMaxAnisotropy",
     "Section": "Display",
     "Files": [
@@ -37190,6 +37862,14 @@
       "StarfieldPrefs.ini"
     ],
     "DefaultValue": 0.75
+  },
+  {
+    "Name": "fSkyCellRefFadeDistance",
+    "Section": "Display",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 150000.0
   },
   {
     "Name": "iSize H",
@@ -37217,6 +37897,14 @@
   },
   {
     "Name": "bCrosshairEnabled",
+    "Section": "GamePlay",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 1
+  },
+  {
+    "Name": "bSaveOnPause",
     "Section": "GamePlay",
     "Files": [
       "StarfieldPrefs.ini"
@@ -37278,6 +37966,46 @@
       "StarfieldPrefs.ini"
     ],
     "DefaultValue": 1
+  },
+  {
+    "Name": "bGridsDynamic",
+    "Section": "General",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 0
+  },
+  {
+    "Name": "uGridsToDemand",
+    "Section": "General",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 3
+  },
+  {
+    "Name": "uGridsToLoad",
+    "Section": "General",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 5
+  },
+  {
+    "Name": "uGridsToLoadMax",
+    "Section": "General",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 5
+  },
+  {
+    "Name": "uGridsToLoadMin",
+    "Section": "General",
+    "Files": [
+      "StarfieldPrefs.ini"
+    ],
+    "DefaultValue": 3
   },
   {
     "Name": "bDamageNumbersEnabled",
@@ -37421,7 +38149,7 @@
     "Files": [
       "StarfieldPrefs.ini"
     ],
-    "DefaultValue": 3
+    "DefaultValue": 0
   },
   {
     "Name": "uGrass",
