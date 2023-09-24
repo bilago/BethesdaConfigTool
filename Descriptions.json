@@ -883,5 +883,9 @@
   "iSurfaceMapPointsPerLength": "Defines the amount of points on the surface map \"per length\" - higher values draw more points, showing more detail.",
   "fWorkshopIsoCamMaxDistance": "The maximum distance the camera can be pulled out in outpost view mode.",
   "bConstrainWorkshopIsoCamToBuildArea": "Whether or not the Outpost Camera is tethered to the Outpost's boundaries. Travelling too far causes issues.",
-  "fWorkshopIsoCamStartPitch": "The angle the Outpost Camera starts at. Zero is horizontal. Probably in radians."
+  "fWorkshopIsoCamStartPitch": "The angle the Outpost Camera starts at. Zero is horizontal. Probably in radians.",
+  "fHelmetLightRadiusThreshold": "The minimum thickness of a mesh for it to cast a shadow. Only seems to affect static geometry",
+  "uGlobalRendererQuality": "This determines which Preset ini the game uses for the [Quality] options. Type Section:Quality in the search bar to see them all. 1 = Low.ini, 2 = Medium.ini, 3 = ultra.ini, Highly recommended to set this to your desired ini, and then every Quality Section item set to 5",
+  "uMotionBlur": "Which preset file used to load the setting uMotionBlurQuality.",
+  "uMotionBlurQuality": "Level of motion blur. Low = 1, Ultra = 3"
 }
